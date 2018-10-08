@@ -1,0 +1,158 @@
+
+
+.grid-container{
+
+  display: grid;
+  grid-gap: 6px;
+  grid-template-rows: 40px 200px 40px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#header{
+  background-color:  #e6005c;
+  grid-area: 1 / 1 / 6 / 12;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+
+
+}
+
+#sidebar{
+  background-color: beige;
+  grid-area: 6/ 1 / 7 / 2 ;
+  margin-left: 150px;
+  padding-right: 20px;
+  padding-left: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+#sidehr{
+  border-color:black;
+}
+
+#main{
+  grid-column-start: 2;
+  grid-row-start: 6;
+  grid-column-end: 12;
+  margin-right: 150px;
+  padding-bottom: 100px;
+
+
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+}
+
+#box1{
+  border: solid;
+  border-color: white;
+  border-width: thin;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+h1{
+  color: white;
+  font-size: 40px;
+  font-family:  Arial, Helvetica, sans-serif;
+  font-weight: normal;
+
+}
+
+#mypic{
+  display: block;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.flex{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.withicon{
+  display: flex;
+  align-items: center;
+
+
+}
+
+#fbicon{
+  height: 3em;
+  width:3em;
+  padding-right: 5px;
+}
+
+#instagram{
+  height:3em;
+  width:3em;
+  padding-top: 10px;
+  padding-right: 5px;
+}
+
+#bio{
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+
+
+  body {
+      min-width:1000px;
+
+  }
+
+
+
+  .flex_grid{
+    display:flex;
+    justify-content:space-between;
+
+  }
+
+  .job1{
+    margin-right: 10px;
+    max-width: 510px;
+  }
+
+  .job2, .degree{
+    margin-right: 20px;
+    max-width: 500px;
+
+  }
+
+  #year{
+    margin-left: 20px;
+  }
+
+ .flex-skills{
+   display: flex;
+   flex-flow: row;
+
+ }
+
+ #box_2{
+   padding-left:100px;
+ }
+
+.school_year{
+  display: flex;
+  justify-content: space-between;
+}
+
+.degree{
+  margin-right: 300px;
+  max-width: 250px;
+}

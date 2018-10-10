@@ -122,7 +122,7 @@ h1{
   .flex_grid{
     display:flex;
     justify-content:space-between;
-
+    min-width: 700px;
   }
 
   .job1{
@@ -143,7 +143,7 @@ h1{
  .flex-skills{
    display: flex;
    flex-flow: row;
-
+   min-width: 700px;
  }
 
  #box_2{

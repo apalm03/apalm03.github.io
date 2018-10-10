@@ -6,6 +6,7 @@
   grid-gap: 6px;
   grid-template-rows: 40px 200px 40px;
   grid-template-columns: repeat(3, 1fr);
+  width: auto;
 
 }
 
@@ -15,7 +16,7 @@
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 100px;
-  min-width: 1100px;
+
 
 
 
@@ -40,7 +41,7 @@
   grid-column-end: 12;
   margin-right: 150px;
   padding-bottom: 100px;
-  min-width: 700px;
+
 
 
 

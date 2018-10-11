@@ -5,7 +5,7 @@
   display: grid;
   grid-gap: 6px;
   grid-template-rows: 40px 200px 40px;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   min-width: 1200px;
 }
 
@@ -15,7 +15,7 @@
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 100px;
-  min-width: 900px;
+
 
 
 
@@ -42,7 +42,7 @@
   margin-right: 150px;
   padding-bottom: 100px;
   min-width: 500px;
-
+grid-row-end: 7;
 
 
 
@@ -88,6 +88,7 @@ h1{
 .flex{
   padding-top: 20px;
   padding-left: 20px;
+  
 }
 
 .withicon{
@@ -142,6 +143,7 @@ h1{
 
   #year{
     margin-left: 20px;
+    width: 150px;
   }
 
  .flex-skills{
@@ -162,4 +164,9 @@ h1{
 .degree{
   margin-right: 300px;
   max-width: 250px;
+}
+
+body{
+  width: 100%;
+  height: 100%;
 }
